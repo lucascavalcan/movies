@@ -1,0 +1,20 @@
+.filme {
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.filme img {
+    margin-bottom: 10px;
+}
+
+.footer_copy {
+    border-top: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 70px;
+}
