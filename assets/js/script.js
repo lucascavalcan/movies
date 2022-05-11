@@ -1,4 +1,4 @@
-(async function () {
+async function loadMovies() {
     document.querySelector(".filmes").innerHTML = "carregando...";
     let req = await fetch("https://api.b7web.com.br/cinema/");
     let json = await req.json();
@@ -14,5 +14,6 @@
     }
     document.querySelector(".filmes").innerHTML = html;
   }
-})();
+};
 
+loadMovies();
